@@ -1,39 +1,37 @@
 # 🧠 AI Bootcamp Homework Repository
 
-This repository contains my submissions for the AI Bootcamp. Each assignment is organized into its own folder.
+This repository contains my submissions for the AI Bootcamp.  
+Each assignment is organized into its own folder.
 
 ---
 
 ## 📁 Structure
 
 - `assignment-1/` – PDF-based QA system using Claude and Gradio
-- `assignment-2/` – _(TBD: future assignment)_
-- ...
+- `assignment-2/` – _TBD: future assignment_
 
 ---
 
 ## 🚀 How to Run
 
-Install required dependencies:
+**1. Install dependencies**
 
 ```bash
 pip install -r requirements.txt
-Run any assignment script, for example:
 
-bash
-Kopiuj
-Edytuj
+
+2. Run an assignment
+
 python assignment-1/4-app-workshop1-homework.py
-⚠️ Make sure you set the ANTHROPIC_API_KEY environment variable before running.
+
+⚠️ Make sure you set your ANTHROPIC_API_KEY as an environment variable.
 
 📦 Requirements
 Python 3.8+
 
-See requirements.txt for required packages
+All dependencies are listed in requirements.txt
 
 📝 Assignments
 Folder	Description
-assignment-1	PDF Question Answering app using Claude 3, Anthropic API, Gradio UI, and SQLite logging
-assignment-2	(Coming soon)
-👤 Author
-MatchYouPikchu
+assignment-1	PDF Question Answering app using Claude 3, Anthropic API, Gradio, and SQLite
+assignment-2	Coming soon 
